@@ -9721,9 +9721,26 @@ p span {
   text-align: center;
 }
 
+@media (max-width: 575.98px) {
+  .section__about {
+    text-align: center !important;
+  }
+}
 .section__container {
   line-height: 35px;
   display: inline;
+}
+
+.section__about {
+  text-align: left;
+}
+
+.section__about__imagen {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #6c6e70;
+  border-radius: 50%;
+  background-image: url(../img/naomi-thai.png);
 }
 
 .button__section {

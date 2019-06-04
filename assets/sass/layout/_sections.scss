@@ -1,3 +1,12 @@
+
+@media (max-width: 575.98px) {
+    .section__about{
+        text-align: center !important;
+    }
+
+}
+
+
 .section{
     &__container{
         line-height:35px;
@@ -6,4 +15,22 @@
 }
 
 
+.section__about{
+    text-align: left;
+}
+
+.section__about__imagen{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    &-tamano{
+        width: auto;
+        height: 100%;
+        margin-left: -50px;
+      }
+    }
+}
 
