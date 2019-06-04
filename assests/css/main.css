@@ -9733,14 +9733,20 @@ p span {
 
 .section__about {
   text-align: left;
-  vertical-align: middle;
 }
 
-.section__about__imagen-tamano img {
-  width: 180px;
-  height: 180px;
+.section__about__imagen {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
   border-radius: 50%;
-  border: 1px solid #6c6e70;
+}
+.section__about__imagen-tamano {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
 }
 
 .button__section {

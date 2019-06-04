@@ -17,20 +17,16 @@
 
 .section__about{
     text-align: left;
+    vertical-align: middle;
 }
 
 .section__about__imagen{
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+  
+    &-tamano img{
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    &-tamano{
-        width: auto;
-        height: 100%;
-        margin-left: -50px;
-      }
+    border: 1px solid $nickel;
     }
 }
 
