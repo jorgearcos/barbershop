@@ -10,6 +10,7 @@ h5{
     font-family: $playfair;
     font-weight: $regular;
     font-size: $large;
+    margin-bottom: 20px;
 }
 
 p{
@@ -17,5 +18,8 @@ p{
   font-family: $roboto;
   font-weight: $regular;
   font-size: $medium;  
+    span {
+      color: $spanish-pink;
+    }
 }
 

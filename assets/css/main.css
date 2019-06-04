@@ -9672,7 +9672,7 @@ img {
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: #fff;
+  color: #ffffff;
   font-weight: 900;
   font-size: 70px;
 }
@@ -9682,6 +9682,7 @@ h5 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -9689,6 +9690,9 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+p span {
+  color: #ecbcba;
 }
 
 .header {
@@ -9715,6 +9719,31 @@ p {
   margin-right: auto;
   vertical-align: middle;
   text-align: center;
+}
+
+.section__container {
+  line-height: 35px;
+  display: inline;
+}
+
+.button__section {
+  background-color: #6c6e70;
+  color: #ffffff;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 16px;
+  margin: 0 0.2rem;
+}
+.button__section:Hover {
+  color: #ffffff;
+  background-color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+}
+.button__section:focus {
+  background-color: #6c6e70;
+  border: 1px solid #d1d1d1;
 }
 
 /*# sourceMappingURL=main.css.map */

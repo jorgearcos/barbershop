@@ -1,0 +1,21 @@
+
+.button__section{
+background-color: $nickel;
+color: $white;
+padding: .3rem .7rem;
+border: 1px solid $light-gray;
+border-radius: 25px;
+font-family: $roboto;
+font-weight: $medium;
+margin: 0 .2rem;
+    &:Hover{
+        color: $white;
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+    }
+
+    &:focus{
+        background-color: $nickel;
+        border: 1px solid $light-gray;
+    }
+}
