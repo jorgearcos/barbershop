@@ -1,0 +1,19 @@
+.link__person a{
+    color:$spanish-pink;
+    font-size: $medium;
+    font-weight: $regular;
+    display: block;
+    margin: .3rem 0;
+    text-decoration: none;
+}    
+
+.link__person a:hover{
+    color:$nickel;
+
+}
+     
+.link__person a:active{
+    color:$platinum;
+
+}
+  

@@ -9677,6 +9677,13 @@ h1 {
   font-size: 70px;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #121619;
+  font-weight: 900;
+  font-size: 30px;
+}
+
 h5 {
   color: #6c6e70;
   font-family: "Playfair Display", serif;
@@ -9697,6 +9704,10 @@ p span {
 
 .header {
   background-color: #121619;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
 }
 
 .main {
@@ -9725,22 +9736,35 @@ p span {
   .section__about {
     text-align: center !important;
   }
+
+  .section__pages {
+    background-color: #d1d1d1;
+    padding: 8px 0;
+  }
 }
 .section__container {
   line-height: 35px;
   display: inline;
 }
 
+.section__container__buttons {
+  padding: 30px 0;
+}
+
 .section__about {
   text-align: left;
   vertical-align: middle;
+  border-top: 1px solid #d1d1d1;
+  padding-top: 50px;
 }
 
-.section__about__imagen-tamano img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 1px solid #6c6e70;
+.section__about__text {
+  line-height: 35px;
+}
+
+.section__pages {
+  background-color: #d1d1d1;
+  padding: 20px 0;
 }
 
 .button__section {
@@ -9760,6 +9784,65 @@ p span {
 }
 .button__section:focus {
   background-color: #6c6e70;
+  border: 1px solid #d1d1d1;
+}
+
+.link__person a {
+  color: #ecbcba;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin: 0.3rem 0;
+  text-decoration: none;
+}
+
+.link__person a:hover {
+  color: #6c6e70;
+}
+
+.link__person a:active {
+  color: #e6e7e7;
+}
+
+@media (max-width: 575.98px) {
+  .page-link {
+    color: #6c6e70;
+    font-size: 12px !important;
+    padding: 0.3rem 0.6rem !important;
+  }
+}
+.page-link {
+  color: #6c6e70;
+}
+
+.pagination a:hover,
+.pagination .active a {
+  background-color: #6c6e70;
+  color: #ffffff;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+}
+
+@media (max-width: 575.98px) {
+  .thumbnails__imagen-tamano img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    border: 1px solid #d1d1d1;
+  }
+}
+.thumbnails__imagen-tamano img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
   border: 1px solid #d1d1d1;
 }
 

@@ -1,0 +1,30 @@
+@media (max-width: 575.98px) {
+    .page-link {
+        color:$nickel;
+        font-size: $small !important;
+        padding: 0.3rem 0.6rem !important;
+    }  
+    
+
+}
+
+.page-link {
+    color:$nickel;
+}
+
+.pagination a:hover,
+.pagination .active a {
+    background-color:$nickel;
+    color: $white;
+}
+
+
+.page-item:last-child .page-link{
+    border-top-right-radius: 999px;
+    border-bottom-right-radius:999px;
+}
+
+.page-item:first-child .page-link{
+    border-top-left-radius: 999px;
+    border-bottom-left-radius:999px;
+}

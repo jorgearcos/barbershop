@@ -1,0 +1,24 @@
+
+@media (max-width: 575.98px) {
+    .thumbnails__imagen{
+  
+        &-tamano img{
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 50%;
+        border: 1px solid $light-gray;
+        }
+    }
+    
+
+}
+
+.thumbnails__imagen{
+  
+    &-tamano img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid $light-gray;
+    }
+}

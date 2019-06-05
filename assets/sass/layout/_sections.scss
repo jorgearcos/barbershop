@@ -4,6 +4,11 @@
         text-align: center !important;
     }
 
+    .section__pages{
+        background-color: $light-gray;
+        padding: 8px 0;
+    }
+    
 }
 
 
@@ -14,19 +19,28 @@
     }
 }
 
+.section__container__buttons{
+   padding: 30px 0;
+}
+
+
 
 .section__about{
     text-align: left;
     vertical-align: middle;
+    border-top: 1px solid $light-gray;
+    padding-top: 50px;
+    
+
+
 }
 
-.section__about__imagen{
-  
-    &-tamano img{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 1px solid $nickel;
-    }
+
+.section__about__text{
+ line-height: 35px;  
 }
 
+.section__pages{
+    background-color: $light-gray;
+    padding: 20px 0;
+}
