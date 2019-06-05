@@ -9711,6 +9711,11 @@ p span {
   color: #ffffff;
 }
 
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #e56353;
+}
+
 footer {
   background-color: #121619;
   padding: 4rem 0;
