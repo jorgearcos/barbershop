@@ -9659,6 +9659,7 @@ h3 {
   width: 5rem;
 }
 .logo__imagen-big {
+  display: inline-block;
   width: 10rem;
 }
 
@@ -9708,6 +9709,11 @@ p span {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
+}
+
+footer {
+  background-color: #121619;
+  padding: 4rem 0;
 }
 
 .main {
