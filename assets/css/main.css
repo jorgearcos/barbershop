@@ -9658,7 +9658,7 @@ h3 {
 .logo__imagen {
   width: 5rem;
 }
-.logo__imagen-big {
+.logo__imagen--big {
   display: inline-block;
   width: 10rem;
 }
@@ -9675,21 +9675,21 @@ h1 {
   font-family: "Playfair Display", serif;
   color: #ffffff;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 4.375rem;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
   color: #121619;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h5 {
   color: #6c6e70;
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 20px;
 }
 
@@ -9697,7 +9697,7 @@ p {
   color: #6c6e70;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 p span {
   color: #ecbcba;
@@ -9785,7 +9785,7 @@ footer {
   border: 1px solid #d1d1d1;
   border-radius: 25px;
   font-family: "Roboto", sans-serif;
-  font-weight: 16px;
+  font-weight: 1rem;
   margin: 0 0.2rem;
 }
 .button__section:Hover {
@@ -9800,7 +9800,7 @@ footer {
 
 .link__person a {
   color: #ecbcba;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   display: block;
   margin: 0.3rem 0;
@@ -9816,9 +9816,9 @@ footer {
 }
 
 @media (max-width: 575.98px) {
-  .page-link {
+  .page--link {
     color: #6c6e70;
-    font-size: 12px !important;
+    font-size: 0.75rem !important;
     padding: 0.3rem 0.6rem !important;
   }
 }
@@ -9850,7 +9850,7 @@ footer {
     border: 1px solid #d1d1d1;
   }
 }
-.thumbnails__imagen-tamano img {
+.thumbnails__imagen--tamano img {
   width: 180px;
   height: 180px;
   border-radius: 50%;
